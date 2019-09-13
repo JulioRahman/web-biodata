@@ -1,0 +1,12 @@
+body {
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+img {
+    border-radius: 50%;
+}
+
+.konten {
+    margin: auto;
+    width: 50%;
+}

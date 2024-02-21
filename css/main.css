@@ -1,12 +1,21 @@
 body {
-    font-family: 'Red Hat Display', sans-serif;
+  font-family: "Red Hat Display", sans-serif;
 }
 
 img {
-    border-radius: 50%;
+  border-radius: 50%;
 }
 
-.konten {
-    margin: auto;
-    width: 50%;
+.center {
+  text-align: center;
+}
+
+h1,
+.content b {
+  font-family: "DM Serif Display", serif;
+}
+
+.content {
+  margin: auto;
+  width: 50%;
 }

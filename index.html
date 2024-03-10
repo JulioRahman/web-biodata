@@ -10,6 +10,12 @@
     <title>Biodata</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="css/main.css"/>
+    <script>
+        function changeTheme() {
+            const bodyElement = document.body;
+            bodyElement.classList.toggle("dark-theme");
+        }
+    </script>
 </head>
 <body>
 <div class="center"><h1>BIODATA</h1></div>
@@ -27,6 +33,7 @@
     <p>Teknik Informatika</p>
     <p><b>Perguruan Tinggi</b></p>
     <p>Universitas Bina Nusantara</p>
+    <button onclick="changeTheme()">Ganti Tema</button>
 </div>
 </body>
 </html>

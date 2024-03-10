@@ -1,5 +1,12 @@
 body {
   font-family: "Red Hat Display", sans-serif;
+  background-color: #fff;
+  color: #000;
+}
+
+.dark-theme {
+  background-color: #333;
+  color: #eee;
 }
 
 img {
